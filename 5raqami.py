@@ -2,8 +2,7 @@ def reverse_decimal_number(number):
     if len(number) == 1:
         return number
     else:
-        return number [-1]  +
-reverse_decimal_number(number[:-1])
+        return number [-1] + reverse_decimal_number(number[:-1])
 #ورودی را دریافت کنید
 decimal_number = input("adad 5raqami ashari vared konid")
 
